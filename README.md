@@ -37,7 +37,7 @@ Instructions to Run
           jupyter notebook Assignment3_Programming_for_AI.ipynb
     Execute all notebook cells sequentially.
 
-Author: Saqib Hayat
+Author: Sahrish Batool
 Roll Number: 25F-0038
 Course: Programming for AI
 Semester: 3rd
