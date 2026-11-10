@@ -1,35 +1,23 @@
-
-
 # PAI Assignment 3 - Programming for AI
 
 ## Overview
-This repository contains data analysis and visualization deliverables for Assignment 3, covering NumPy memory operations, broadcasting, multidimensional array manipulation, and Matplotlib plots.
+This repository contains my Assignment 3 work covering NumPy array operations, broadcasting, multidimensional arrays, and Matplotlib visualizations.
 
 ## Repository Structure
-```text
-.
-├── Assignment3_Programming_for_AI.ipynb
-├── README.md
-├── data/
-│   ├── sensor_cube.npy
-│   ├── sensor_meta.npz
-│   ├── student_performance.csv
-│   └── weather_stations.csv
-└── outputs/
-    ├── dashboard.pdf
-    ├── dashboard.png
-    └── wave.gif
-How to Run
-    Ensure Python 3.8+ with numpy, pandas, and matplotlib is installed.
-    Open terminal in the project root directory.
-    Launch Jupyter:
-             jupyter notebook Assignment3_Programming_for_AI.ipynb
-    Run all cells sequentially.
+- `data/` - Provided CSV, NPY and NPZ files.
+- `Assignment3_Programming_for_AI.ipynb` - Completed notebook.
+- `outputs/` - Dashboard images, PDF and animation.
+- `README.md` - Project instructions.
 
-Challenges Faced
-    The most challenging part was managing Matplotlib 2D subplot axes indexing (ax[row, col]) and correctly linking colorbar references without raising AttributeError or layout overlap issues.    
+## How to Run
+1. Install Python 3.8+ with NumPy, Pandas, Matplotlib and Jupyter.
+2. Open a terminal in the project folder.
+3. Run `jupyter notebook Assignment3_Programming_for_AI.ipynb`.
+4. Execute all notebook cells sequentially.
 
-Author: Sahrish Batool
-Roll No: 25F-0038
-Course: Programming for AI
-Semester: 3rd
+## Challenge Faced
+The most challenging part was handling Matplotlib subplot axes indexing and connecting colorbars correctly without layout or AttributeError issues.
+
+**Author:** Sahrish Batool  
+**Roll No:** 25F-0038  
+**Course:** Programming for AI
